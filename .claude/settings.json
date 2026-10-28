@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"console.error('[Session] Tipp: futtasd /session-save mielott kilepsz!')\""
+          }
+        ]
+      }
+    ]
+  }
+}
